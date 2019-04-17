@@ -14,6 +14,8 @@
 		55E86D5C226709C2000AC66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E86D5A226709C2000AC66B /* Main.storyboard */; };
 		55E86D5E226709C2000AC66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E86D5D226709C2000AC66B /* Assets.xcassets */; };
 		55E86D61226709C2000AC66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E86D5F226709C2000AC66B /* LaunchScreen.storyboard */; };
+		55E86D6A226713E3000AC66B /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E86D69226713E3000AC66B /* Album.m */; };
+		55E86D6D22671D97000AC66B /* AlbumDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E86D6C22671D97000AC66B /* AlbumDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		55E86D5D226709C2000AC66B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55E86D60226709C2000AC66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55E86D62226709C2000AC66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E86D68226713E3000AC66B /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		55E86D69226713E3000AC66B /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		55E86D6B22671D97000AC66B /* AlbumDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumDataController.h; sourceTree = "<group>"; };
+		55E86D6C22671D97000AC66B /* AlbumDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 		55E86D4D226709C2000AC66B /* SpinCity */ = {
 			isa = PBXGroup;
 			children = (
+				55E86D6B22671D97000AC66B /* AlbumDataController.h */,
+				55E86D6C22671D97000AC66B /* AlbumDataController.m */,
+				55E86D68226713E3000AC66B /* Album.h */,
+				55E86D69226713E3000AC66B /* Album.m */,
 				55E86D51226709C2000AC66B /* AppDelegate.h */,
 				55E86D52226709C2000AC66B /* AppDelegate.m */,
 				55E86D54226709C2000AC66B /* MasterViewController.h */,
@@ -156,8 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				55E86D53226709C2000AC66B /* AppDelegate.m in Sources */,
+				55E86D6D22671D97000AC66B /* AlbumDataController.m in Sources */,
 				55E86D56226709C2000AC66B /* MasterViewController.m in Sources */,
 				55E86D50226709C2000AC66B /* main.m in Sources */,
+				55E86D6A226713E3000AC66B /* Album.m in Sources */,
 				55E86D59226709C2000AC66B /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

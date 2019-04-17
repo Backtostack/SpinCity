@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E86D50226709C2000AC66B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E86D4F226709C2000AC66B /* main.m */; };
+		55E86D53226709C2000AC66B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E86D52226709C2000AC66B /* AppDelegate.m */; };
+		55E86D56226709C2000AC66B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E86D55226709C2000AC66B /* MasterViewController.m */; };
+		55E86D59226709C2000AC66B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E86D58226709C2000AC66B /* DetailViewController.m */; };
+		55E86D5C226709C2000AC66B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E86D5A226709C2000AC66B /* Main.storyboard */; };
+		55E86D5E226709C2000AC66B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E86D5D226709C2000AC66B /* Assets.xcassets */; };
+		55E86D61226709C2000AC66B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E86D5F226709C2000AC66B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55E86D4B226709C2000AC66B /* SpinCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E86D4F226709C2000AC66B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55E86D51226709C2000AC66B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55E86D52226709C2000AC66B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55E86D54226709C2000AC66B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		55E86D55226709C2000AC66B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		55E86D57226709C2000AC66B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		55E86D58226709C2000AC66B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		55E86D5B226709C2000AC66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55E86D5D226709C2000AC66B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E86D60226709C2000AC66B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E86D62226709C2000AC66B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E86D48226709C2000AC66B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E86D42226709C2000AC66B = {
+			isa = PBXGroup;
+			children = (
+				55E86D4D226709C2000AC66B /* SpinCity */,
+				55E86D4C226709C2000AC66B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E86D4C226709C2000AC66B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E86D4B226709C2000AC66B /* SpinCity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E86D4D226709C2000AC66B /* SpinCity */ = {
+			isa = PBXGroup;
+			children = (
+				55E86D51226709C2000AC66B /* AppDelegate.h */,
+				55E86D52226709C2000AC66B /* AppDelegate.m */,
+				55E86D54226709C2000AC66B /* MasterViewController.h */,
+				55E86D55226709C2000AC66B /* MasterViewController.m */,
+				55E86D57226709C2000AC66B /* DetailViewController.h */,
+				55E86D58226709C2000AC66B /* DetailViewController.m */,
+				55E86D5A226709C2000AC66B /* Main.storyboard */,
+				55E86D5D226709C2000AC66B /* Assets.xcassets */,
+				55E86D5F226709C2000AC66B /* LaunchScreen.storyboard */,
+				55E86D62226709C2000AC66B /* Info.plist */,
+				55E86D4E226709C2000AC66B /* Supporting Files */,
+			);
+			path = SpinCity;
+			sourceTree = "<group>";
+		};
+		55E86D4E226709C2000AC66B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E86D4F226709C2000AC66B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E86D4A226709C2000AC66B /* SpinCity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E86D65226709C2000AC66B /* Build configuration list for PBXNativeTarget "SpinCity" */;
+			buildPhases = (
+				55E86D47226709C2000AC66B /* Sources */,
+				55E86D48226709C2000AC66B /* Frameworks */,
+				55E86D49226709C2000AC66B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinCity;
+			productName = SpinCity;
+			productReference = 55E86D4B226709C2000AC66B /* SpinCity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E86D43226709C2000AC66B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = backtostack;
+				TargetAttributes = {
+					55E86D4A226709C2000AC66B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 55E86D46226709C2000AC66B /* Build configuration list for PBXProject "SpinCity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E86D42226709C2000AC66B;
+			productRefGroup = 55E86D4C226709C2000AC66B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E86D4A226709C2000AC66B /* SpinCity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E86D49226709C2000AC66B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E86D61226709C2000AC66B /* LaunchScreen.storyboard in Resources */,
+				55E86D5E226709C2000AC66B /* Assets.xcassets in Resources */,
+				55E86D5C226709C2000AC66B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E86D47226709C2000AC66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E86D53226709C2000AC66B /* AppDelegate.m in Sources */,
+				55E86D56226709C2000AC66B /* MasterViewController.m in Sources */,
+				55E86D50226709C2000AC66B /* main.m in Sources */,
+				55E86D59226709C2000AC66B /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55E86D5A226709C2000AC66B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E86D5B226709C2000AC66B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55E86D5F226709C2000AC66B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E86D60226709C2000AC66B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E86D63226709C2000AC66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55E86D64226709C2000AC66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E86D66226709C2000AC66B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpinCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.backtostack.SpinCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55E86D67226709C2000AC66B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpinCity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.backtostack.SpinCity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E86D46226709C2000AC66B /* Build configuration list for PBXProject "SpinCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E86D63226709C2000AC66B /* Debug */,
+				55E86D64226709C2000AC66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E86D65226709C2000AC66B /* Build configuration list for PBXNativeTarget "SpinCity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E86D66226709C2000AC66B /* Debug */,
+				55E86D67226709C2000AC66B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E86D43226709C2000AC66B /* Project object */;
+}

@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+
+@class Album;
+
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) NSDate *detailItem;
+@property (weak, nonatomic) NSDate * detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end

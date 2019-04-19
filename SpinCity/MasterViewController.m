@@ -15,6 +15,7 @@
 
 //@property NSMutableArray *objects;
 @property (nonatomic, strong) AlbumDataController  *albumDataController;
+
 @end
 
 @implementation MasterViewController
@@ -66,7 +67,7 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        Album *album = [self.albumDataController albumAtIndex:indexPath.row];
+        Album  *album = [self.albumDataController albumAtIndex:indexPath.row];
         //NSDate *object = self.objects[indexPath.row];
         
         DetailViewController *controller = (DetailViewController *)[[segue destinationViewController] topViewController];
@@ -92,7 +93,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"AlbumCell" forIndexPath:indexPath];
-    Album *album = [self.albumDataController albumAtIndex:indexPath.row];
+    Album * album = [self.albumDataController albumAtIndex:indexPath.row];
 //    NSDate *object = self.objects[indexPath.row];
 //    cell.textLabel.text = [object description];
     cell.textLabel.text = album.title;

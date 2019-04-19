@@ -10,8 +10,11 @@
 #import "Album.h"
 
 @interface AlbumDataController ()
+
 @property (nonatomic, readonly) NSMutableArray* albumlist;
+
 - (void) initializeDefaultAlbums;
+
 @end
 
 

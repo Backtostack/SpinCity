@@ -14,4 +14,5 @@
 - (Album *) albumAtIndex: (NSUInteger)index;
 - (void) addAlbumWithTitle:(NSString*) title artist:(NSString*) artist
                    summary:(NSString*) summary locationInStore:(NSString*) locationInStore price:(float) price;
+
 @end

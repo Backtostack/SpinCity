@@ -10,12 +10,12 @@
 
 @interface Album : NSObject
 
-@property(nonatomic, copy) NSString* title;
-@property(nonatomic, copy) NSString* artist;
-@property(nonatomic, copy) NSString* summary;
-@property(nonatomic, copy) NSString* locationInStore;
-@property(nonatomic, assign) float price;
+@property(nonatomic, copy) NSString* title; //Поля объекта
+@property(nonatomic, copy) NSString* artist; //Поля объекта
+@property(nonatomic, copy) NSString* summary; //Поля объекта
+@property(nonatomic, copy) NSString* locationInStore; //Поля объекта
+@property(nonatomic, assign) float price; //Поля объекта
 
 -(id) initWithTitle : (NSString*) title artist:(NSString*) artist
-             summary:(NSString*) summary locationInStore:(NSString*) locationInStore price:(float) price;
+             summary:(NSString*) summary locationInStore:(NSString*) locationInStore price:(float) price; //Метод создания нового альбома
 @end

@@ -10,8 +10,9 @@
 
 @implementation Album
 
--(id) initWithTitle : (NSString*) title artist:(NSString*) artist
-             summary:(NSString*) summary locationInStore:(NSString*)locationInStore price:(float)price {
+-(id) initWithTitle : (NSString*) title artist:(NSString*) artist summary:(NSString*)summary
+     locationInStore:(NSString*)locationInStore price:(float)price {
+    
     self = [super init];
     if (self) {
         _title = title;
